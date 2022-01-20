@@ -1,2 +1,2 @@
 web: python index.py
-clock: python main.py
+monitoring : python main.py

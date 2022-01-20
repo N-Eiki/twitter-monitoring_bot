@@ -65,8 +65,8 @@ if __name__=="__main__":
     # リスナーを作成
     stream_listener = StreamListener(consumer_key=api_key, consumer_secret=api_secret, access_token=access_token, access_token_secret=access_token_secret)
 
-    # 監視対象のユーザーIDを調べる（https://idtwi.com/)
-    twitter_user_id = [twitter_id] 
+    # 監視対象のユーザーID（https://idtwi.com/ 
+    twitter_user_id = [twitter_id] #@sate_pokeのtwitter id
     # 監視スタート
     print('Start watching tweets')
 
