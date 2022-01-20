@@ -1,1 +1,2 @@
-worker: python main.py
+web: python index.py
+clock: python main.py
