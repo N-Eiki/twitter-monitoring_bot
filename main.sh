@@ -1,0 +1,1 @@
+docker-compose run python3 python main.py
